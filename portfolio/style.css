@@ -1,1 +1,2 @@
-  background-color: "pink";
+background: rgb(248,218,231);
+background: radial-gradient(circle, rgba(248,218,231,1) 0%, rgba(148,187,233,0.9948573179271709) 100%);

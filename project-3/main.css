@@ -1,10 +1,11 @@
-{
-  font-family: "Garamond", serif;
-    background-color:cornsilk;
+body.two {
+  background-color: #333;
+ font-family: font-family: 'Libre Baskerville', serif;
+
 }
 
 h1 {
-  color: #96c892;
+  color: #E24E4E;
   font-size: 70px;
 }
 
@@ -28,6 +29,28 @@ h1 {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #E24E4E;
   color: white;
+}
+.start {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: -75px;
+  width: 900px;
+  height: 200px;
+  font-size: 22px;
+  padding: auto;
+  font-weight: 300;
+}
+
+.start-text p:hover{
+  color: 
+#cc402b
+;
+}
+.start-text {
+  display: inline-block;
+  text-align: left;
 }
