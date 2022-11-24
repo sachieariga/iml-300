@@ -54,3 +54,112 @@ h1 {
   display: inline-block;
   text-align: left;
 }
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 80px;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+div {
+ 
+}
+
+p {
+  font-family:  'Outfit', sans-serif;
+}
+
+.start {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: -75px;
+  width: 900px;
+  height: 200px;
+  font-size: 22px;
+  padding: auto;
+  font-weight: 300;
+}
+
+.start-text {
+  display: inline-block;
+  text-align: left;
+}
+
+.home-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -125px;
+  width: 1000px;
+  height: 250px;
+  text-align: center;
+  padding: 12px;
+}
+
+.home-gradient {
+  position: absolute;
+  top: -2%;
+  left: -2%;
+  width: 105%;
+  height: 105%;
+  filter: contrast(400%) brightness(150%) saturate(60%);
+  background:
+  linear-gradient(-30deg, #eb4034, transparent), 
+  url(grain.svg); 
+}
+
+.home-overlay {
+    position: absolute;
+    top: -2%;
+    left: -2%;
+  width: 105%;
+  height: 105%;
+    background: #bda53a;
+  mix-blend-mode: multiply;
+}
+
+.home-body {
+  height: 100%;
+  overflow-y: hidden;
+  color: white;
+}
+body.three {
+  background-image: 
+    <img src="images/typesofsushi.png";
+
+  background-size: cover;
+}
+
