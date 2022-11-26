@@ -55,7 +55,7 @@ p {
 
 .start {
   position: fixed;
-  top: 50%;
+  top: 0%;
   left: 50%;
   margin-left: -450px;
   margin-top: -75px;
@@ -64,6 +64,7 @@ p {
   font-size: 22px;
   padding: auto;
   font-weight: 300;
+      font-family:  'Libre Baskerville', serif;
 }
 
 .start-text {
