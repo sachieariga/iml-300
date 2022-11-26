@@ -153,6 +153,9 @@ video {
   height: 885px;
   left: 16vw;
   top: 330vh;
+    resize: both;
+    max-width: 50%;
+    max-height: 50%
 }
 .rule5 {
   background-image: url("images/rule5.png");
