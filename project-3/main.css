@@ -72,18 +72,6 @@ details > summary {
 details > summary:-webkit-details-marker {
   display: none;
 }
-.start {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  margin-left: -450px;
-  margin-top: -75px;
-  width: 900px;
-  height: 200px;
-  font-size: 22px;
-  padding: auto;
-  font-weight: 300;
-}
 
 
 
