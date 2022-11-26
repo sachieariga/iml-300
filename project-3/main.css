@@ -1,5 +1,4 @@
-background-color: black;
- 
+
 font-family: font-family: 'Libre Baskerville', serif;
 
 .blur {
@@ -129,52 +128,52 @@ video {
 
 .rule1 {
   background-image: url("images/rule1.png");
-  width: 690px;
-  height: 520px;
-  background-size: 640px;
+  width: 1832px;
+  height: 845px;
+  background-size: 340px;
   left: 40vw;
   top: 120vh;
 }
 .rule2 {
   background-image: url("images/rule2.png");
-  width: 650px;
-  height: 450px;
-  background-size: 600px;
+  width: 1188;
+  height: 1162px;
+  background-size: 300px;
   left: 7vw;
   top: 190vh;
 }
 .rule3 {
    background-image: url("images/rule3.png");
  position: relative;
-  width: 510px;
-  height: 640px;
-  background-size: 460px;
+  width: 1200px;
+  height: 1262px;
+  background-size: 360px;
   left: 60vw;
   top: 250vh;
 }
 .rule4 {
   background-image: url("images/rule4.png");
-  width: 700px;
-  height: 700px;
-  background-size: 650px;
+  width: 1049px;
+  height: 885px;
+  background-size: 350px;
   background-position: center top 25px;
   left: 16vw;
   top: 330vh;
 }
 .rule5 {
   background-image: url("images/rule5.png");
-  width: 700px;
-  height: 700px;
-  background-size: 650px;
+  width: 1333px;
+  height: 885px;
+  background-size: 350px;
   background-position: center top 25px;
   left: 16vw;
   top: 440vh;
 }
 .rule6 {
   background-image: url("images/rule6.png");
-  width: 700px;
-  height: 700px;
-  background-size: 650px;
+  width: 1710px;
+  height: 666px;
+  background-size: 350px;
   background-position: center top 25px;
   left: 16vw;
   top: 550vh;
