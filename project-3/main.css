@@ -2,7 +2,7 @@
 .blur {
   cursor: pointer;
   filter: blur(5px);
-  transition: 1s all;
+  transition: 0.5s all;
 }
 .blur:hover {
   cursor: url("images/sushicursor.png"),
@@ -46,6 +46,20 @@ h1 {
   color: white;
 }
 
+p {
+  font-family:  'Libre Baskerville', serif;
+}
+
+.start-text p:hover{color: 
+#cc402b;
+}
+
+.start-text {
+  display: inline-block;
+  text-align: center;
+}
+
+}
 summary {
   outline: none;
 }
@@ -53,7 +67,7 @@ summary {
 details > summary {
   list-style: none;
 }
-details > summary::-webkit-details-marker {
+details > summary:-webkit-details-marker {
   display: none;
 }
 .start {
@@ -69,17 +83,9 @@ details > summary::-webkit-details-marker {
   font-weight: 300;
 }
 
-.start-text s:hover{
-  color: 
-#cc402b
-;
-}
-.start-text {
-  display: inline-block;
-  text-align: center;
-}
 
-body::-webkit-scrollbar {
+
+body:-webkit-scrollbar {
   display: none;
 }
 
@@ -99,16 +105,9 @@ video {
   z-index: 0;
 }
 
-s {
-  font-family:  'Libre Baskerville', serif;
-}
 
-s:hover {   
-    color: #cc402b;
-
-}
 
 .japan {
-    resize: 0.8;
+    resize: 0.5;
     background-position: center;
 }
