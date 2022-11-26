@@ -54,28 +54,6 @@ h1 {
   display: inline-block;
   text-align: center;
 }
-/* a minimalist set of CSS resets */
-
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-  
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: 'Libre Baskerville', serif;
-  line-height: 1.5;
-  padding-bottom: 50px;
-    background-color: "white";
-
-}
 
 body::-webkit-scrollbar {
   display: none;
@@ -98,3 +76,7 @@ s {
   font-family:  'Libre Baskerville', serif;
 }
 
+s:hover {   
+    color: #cc402b;
+
+}
