@@ -127,6 +127,7 @@ video {
 /*how to eat sushi*/
 
 .rule1 {
+  background-image: url("images/rule1.png");
   width: 1832px;
   height: 845px;
   left: 40vw;
@@ -136,7 +137,6 @@ video {
   background-image: url("images/rule2.png");
   width: 1188;
   height: 1162px;
-  background-size: 300px;
   left: 7vw;
   top: 190vh;
 }
@@ -144,7 +144,6 @@ video {
    background-image: url("images/rule3.png");
   width: 1200px;
   height: 1262px;
-  background-size: 360px;
   left: 60vw;
   top: 250vh;
 }
@@ -152,7 +151,6 @@ video {
   background-image: url("images/rule4.png");
   width: 1049px;
   height: 885px;
-  background-size: 350px;
   background-position: center top 25px;
   left: 16vw;
   top: 330vh;
@@ -161,7 +159,6 @@ video {
   background-image: url("images/rule5.png");
   width: 1333px;
   height: 885px;
-  background-size: 350px;
   background-position: center top 25px;
   left: 16vw;
   top: 440vh;
@@ -170,7 +167,6 @@ video {
   background-image: url("images/rule6.png");
   width: 1710px;
   height: 666px;
-  background-size: 350px;
   background-position: center top 25px;
   left: 16vw;
   top: 550vh;
