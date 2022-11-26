@@ -71,7 +71,7 @@ details > summary:-webkit-details-marker {
   display: none;
 }
 .start {
-  position: fixed;
+  position: relative;
   top: 50%;
   left: 50%;
   margin-left: -450px;
@@ -99,15 +99,12 @@ video {
 
 .types {
   position: relative;
-  top: 100px;
-  left: 100px;
-  width: 800px;
-  z-index: 0;
+  height: auto;
+  max-width: 100%;
 }
 
 
-
 .japan {
-    resize: 0.5;
+    resize: 0.2;
     background-position: center;
 }
