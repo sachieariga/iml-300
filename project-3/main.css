@@ -93,3 +93,8 @@ s:hover {
     color: #cc402b;
 
 }
+
+.japan {
+    resize: 0.8;
+    position: center;
+}
