@@ -45,6 +45,17 @@ h1 {
   background-color: #E24E4E;
   color: white;
 }
+
+summary {
+  outline: none;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
 .start {
   position: fixed;
   top: 50%;
@@ -82,7 +93,10 @@ video {
 
 .types {
   position: relative;
-      max-width: 100%;
+  top: 100px;
+  left: 100px;
+  width: 800px;
+  z-index: 0;
 }
 
 s {
@@ -96,5 +110,5 @@ s:hover {
 
 .japan {
     resize: 0.8;
-    position: center;
+    background-position: center;
 }
