@@ -1,5 +1,6 @@
-
-  font-family: font-family: 'Libre Baskerville', serif;
+background-color: black;
+ 
+font-family: font-family: 'Libre Baskerville', serif;
 
 .blur {
   cursor: pointer;
@@ -130,7 +131,7 @@ video {
   background-image: url("images/rule1.png");
   width: 690px;
   height: 520px;
-  background-size: 300px;
+  background-size: 640px;
   left: 40vw;
   top: 120vh;
 }
@@ -138,7 +139,7 @@ video {
   background-image: url("images/rule2.png");
   width: 650px;
   height: 450px;
-  background-size: 200px;
+  background-size: 600px;
   left: 7vw;
   top: 190vh;
 }
@@ -147,7 +148,7 @@ video {
  position: relative;
   width: 510px;
   height: 640px;
-  background-size: 200px;
+  background-size: 460px;
   left: 60vw;
   top: 250vh;
 }
@@ -155,7 +156,7 @@ video {
   background-image: url("images/rule4.png");
   width: 700px;
   height: 700px;
-  background-size: 200px;
+  background-size: 650px;
   background-position: center top 25px;
   left: 16vw;
   top: 330vh;
@@ -164,7 +165,7 @@ video {
   background-image: url("images/rule5.png");
   width: 700px;
   height: 700px;
-  background-size: 200px;
+  background-size: 650px;
   background-position: center top 25px;
   left: 16vw;
   top: 440vh;
@@ -173,7 +174,7 @@ video {
   background-image: url("images/rule6.png");
   width: 700px;
   height: 700px;
-  background-size: 200px;
+  background-size: 650px;
   background-position: center top 25px;
   left: 16vw;
   top: 550vh;
