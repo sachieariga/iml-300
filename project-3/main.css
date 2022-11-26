@@ -12,7 +12,7 @@
   filter: blur(0);
 }
 .position {
-  position: fixed;
+  position: relative;
 }
 
 h1 {
@@ -21,12 +21,17 @@ h1 {
   font-family: font-family: 'Libre Baskerville', serif;
 
 }
+h1 hover{
+text-decoration: underline;
+}
+
 
 .topnav {
   background-color: #333;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
+      font-family: font-family: 'Libre Baskerville', serif;
 }
 
 .topnav a {
@@ -36,6 +41,8 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
+      font-family: font-family: 'Libre Baskerville', serif;
+
 }
 
 .topnav a:hover {
@@ -51,7 +58,6 @@ h1 {
 p {
   font-family:  'Libre Baskerville', serif;
       text-align: center;
-      margin: auto;
 }
 
 
