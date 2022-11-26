@@ -55,13 +55,13 @@ p {
 
 .start {
   position: fixed;
-  top: 0%;
-  left: 50%;
+  top: 100%;
+  left: 100%;
   margin-left: -450px;
   margin-top: -75px;
   width: 900px;
   height: 200px;
-  font-size: 22px;
+  font-size: 30px;
   padding: auto;
   font-weight: 300;
       font-family:  'Libre Baskerville', serif;
