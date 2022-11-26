@@ -96,6 +96,12 @@ video {
 
 
 .japan {
-    resize: 0.2;
-    background-position: center;
+  position: relative;
+  top: 120px;
+  left: 320px;
+  width: 470px;
+}
+.japan:hover {
+  transform: rotate(20deg);
+  text-shadow: 2px 2px 10px white;
 }
