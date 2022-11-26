@@ -70,7 +70,7 @@ p {
 }
 
 .start-text {
-  display:inline-block;
+  display: block;
   text-align: center;
 
 }
@@ -109,10 +109,10 @@ video {
 
 .japan {
   position: relative;
-  top: 300px;
+  top: 0px;
   left: 500px;
   width: 500px;
 }
 .japan:hover {
-  transform: rotate(20deg);
+  transform: rotate(10deg);
 }
