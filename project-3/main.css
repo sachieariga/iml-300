@@ -21,7 +21,7 @@ h1 {
   font-family: font-family: 'Libre Baskerville', serif;
 
 }
-h1 hover{
+h1:hover{
 text-decoration: underline;
 }
 
