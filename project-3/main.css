@@ -109,9 +109,10 @@ video {
 
 .japan {
   position: relative;
-  top: 0px;
+  top: -50px;
   left: 500px;
   width: 500px;
+    z-index: 0;
 }
 .japan:hover {
   transform: rotate(10deg);
