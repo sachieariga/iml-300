@@ -71,7 +71,7 @@ p {
 }
 
 .start {
-  position: fixed;
+  position: relative;
   top: 100%;
   left: 100%;
   margin-left: -1500px;
