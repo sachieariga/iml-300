@@ -15,7 +15,7 @@
 
 h1 {
   color: #E24E4E;
-  font-size: 70px;
+  font-size: 80px;
   font-family: font-family: 'Libre Baskerville', serif;
 
 }
@@ -33,7 +33,7 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 
 .topnav a:hover {
@@ -52,14 +52,23 @@ p {
       margin: auto;
 }
 
-.start-text p:hover{color: 
-#cc402b;
+
+.start {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: -75px;
+  width: 900px;
+  height: 200px;
+  font-size: 22px;
+  padding: auto;
+  font-weight: 300;
 }
 
 .start-text {
-  display: inline-block;
+  display:inline-block;
   text-align: center;
-}
 
 }
 summary {
