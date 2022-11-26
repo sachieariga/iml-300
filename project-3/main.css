@@ -151,7 +151,6 @@ video {
   background-image: url("images/rule4.png");
   width: 1049px;
   height: 885px;
-  background-position: center top 25px;
   left: 16vw;
   top: 330vh;
 }
@@ -159,7 +158,6 @@ video {
   background-image: url("images/rule5.png");
   width: 1333px;
   height: 885px;
-  background-position: center top 25px;
   left: 16vw;
   top: 440vh;
 }
@@ -167,7 +165,6 @@ video {
   background-image: url("images/rule6.png");
   width: 1710px;
   height: 666px;
-  background-position: center top 25px;
   left: 16vw;
   top: 550vh;
 }
