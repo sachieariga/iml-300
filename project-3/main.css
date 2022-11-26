@@ -144,12 +144,10 @@ video {
 }
 .rule3 {
    background-image: url("images/rule3.png");
- position: relative;
   width: 1200px;
   height: 1262px;
   background-size: 360px;
-  left: 60vw;
-  top: 250vh;
+
 }
 .rule4 {
   background-image: url("images/rule4.png");
