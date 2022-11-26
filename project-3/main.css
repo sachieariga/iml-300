@@ -1,14 +1,4 @@
-body.home {height: 100%;
-    margin: auto;
-    width: 960px;
-    overflow: hidden;
-}
 
-body.two {
-  background-color: "white";
- font-family: font-family: 'Libre Baskerville', serif;
-
-}
 
 h1 {
   color: #E24E4E;
@@ -55,14 +45,14 @@ h1 {
   font-weight: 300;
 }
 
-.start-text p:hover{
+.start-text s:hover{
   color: 
 #cc402b
 ;
 }
 .start-text {
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 /* a minimalist set of CSS resets */
 
@@ -83,6 +73,8 @@ body {
   font-family: 'Libre Baskerville', serif;
   line-height: 1.5;
   padding-bottom: 50px;
+    background-color: "white";
+
 }
 
 body::-webkit-scrollbar {
@@ -97,39 +89,12 @@ video {
   max-width: 100%;
 }
 
-div {
- 
+.types {
+  position: relative;
+      max-width: 100%;
 }
 
 s {
   font-family:  'Libre Baskerville', serif;
-}
-
-.start {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-left: -450px;
-  margin-top: -75px;
-  width: 900px;
-  height: 200px;
-  font-size: 22px;
-  padding: auto;
-  font-weight: 300;
-}
-
-.start-text {
-  display: inline-block;
-  text-align: left;
-}
-
-.home-body {
-  height: 100%;
-  overflow-y: hidden;
-  color: white;
-}
-body.three {
-  background-image: "images/typesofsushi.png";
-  background-size: 100%;
 }
 
