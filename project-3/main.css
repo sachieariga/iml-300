@@ -123,3 +123,58 @@ video {
 .japan:hover {
   transform: rotate(10deg);
 }
+
+/*how to eat sushi*/
+
+.rule1 {
+  background-image: url("images/rule1.png");
+  width: 690px;
+  height: 520px;
+  background-size: 640px;
+  left: 40vw;
+  top: 120vh;
+}
+.rule2 {
+  background-image: url("images/rule2.png");
+  width: 650px;
+  height: 450px;
+  background-size: 600px;
+  left: 7vw;
+  top: 190vh;
+}
+.rule3 {
+   background-image: url("images/rule3.png");
+ position: relative;
+  width: 510px;
+  height: 640px;
+  background-size: 460px;
+  left: 60vw;
+  top: 250vh;
+}
+.rule4 {
+  background-image: url("images/rule4.png");
+  width: 700px;
+  height: 700px;
+  background-size: 650px;
+  background-position: center top 25px;
+  left: 16vw;
+  top: 330vh;
+}
+.rule5 {
+  background-image: url("images/rule5.png");
+  width: 700px;
+  height: 700px;
+  background-size: 650px;
+  background-position: center top 25px;
+  left: 16vw;
+  top: 440vh;
+}
+.rule6 {
+  background-image: url("images/rule6.png");
+  width: 700px;
+  height: 700px;
+  background-size: 650px;
+  background-position: center top 25px;
+  left: 16vw;
+  top: 550vh;
+}
