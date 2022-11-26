@@ -1,7 +1,8 @@
 font-family: font-family: 'Libre Baskerville', serif;
-background-color: #f3efdd;
-
+body{background-color: #f3efdd};
 /*first page*/
+
+
 .blur {
   cursor: pointer;
   filter: blur(5px);
@@ -26,9 +27,9 @@ h1:hover{
 text-decoration: underline;
   text-shadow: 2px 2px 10px  #636260;
   cursor: url("images/sushicursor.png");
-    
-}
 
+
+}
 
 .topnav {
   background-color: #333;
@@ -71,7 +72,7 @@ p {
 }
 
 .start {
-  position: relative;
+  position: fixed;
   top: 100%;
   left: 100%;
   margin-left: -1500px;
@@ -172,7 +173,7 @@ position: absolute;
 
 .history3 {
 position: absolute;
-  top: 1000px;
+  top: 1150px;
   left: 200px;
   width: 500px;
     z-index: 0;
@@ -182,10 +183,19 @@ position: absolute;
 box-shadow: 0 0 0 5px #E24E4E;
 transition: .5s ease;
 }
+.celebrate {
+position: absolute;
+  top: 1100px;
+  left: 800px;
+  width: 420px;
+    z-index: 0;
+      transition: .5s ease;
+
+}
 
 .history4 {
 position: absolute;
-  top: 1400px;
+  top: 1600px;
   left: 850px;
   width: 500px;
     z-index: 0;
@@ -198,7 +208,7 @@ transition: .5s ease;
 
 .world {
 position: absolute;
-  top: 1300px;
+  top: 1500px;
   left: 250px;
   width: 500px;
     z-index: 0;
@@ -238,11 +248,23 @@ video {
   max-width: 100%;
 }
 
-
-
+/*fourth page*/
+.itamae {
+    position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 650px;
+    z-index: 0;
+}
+.knife {
+position: absolute;
+  top: 300px;
+  left: 800px;
+  width: 650px;
+    z-index: 0;
+}
 
 /*fourth page*/
-
 .rule1 {
     position: absolute;
   top: 300px;
@@ -253,7 +275,7 @@ video {
 .rule2 {
 position: absolute;
   top: 300px;
-  left: 750px;
+  left: 800px;
   width: 600px;
     z-index: 0;
 }
