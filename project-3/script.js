@@ -1,5 +1,4 @@
-
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyCnVdtFwjRgOfEsD3XXk6eWYi_2Yehgs-I",
   authDomain: "sashimi-firebase.firebaseapp.com",
   projectId: "sashimi-firebase",

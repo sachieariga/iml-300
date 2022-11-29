@@ -81,7 +81,8 @@ h1:hover {
 }
 
 p {
-    position: relative;
+position:fixed; 
+padding: 10px;
     font-family: 'Libre Baskerville', serif;
     text-align: left;
     text-shadow: 2px 2px 10px #636260;
@@ -126,9 +127,9 @@ details > summary:-webkit-details-marker {
 
 .tokyola {
     position: relative;
-    top: 35px;
-    left: 450px;
-    width: 450px;
+    top: px;
+    left: 400px;
+    width: 400px;
     z-index: 0;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
