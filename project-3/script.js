@@ -1,3 +1,4 @@
+
 const firebaseConfig = {
   apiKey: "AIzaSyCnVdtFwjRgOfEsD3XXk6eWYi_2Yehgs-I",
   authDomain: "sashimi-firebase.firebaseapp.com",
@@ -52,7 +53,7 @@ function submitText() {
 
 function submitlock() {
   entry.remove();
-  share.value = "Thanks for telling me.";
+  share.value = "thanks for your contribution!";
   share.disabled = true;
   share.style.width = "70%";
 }
