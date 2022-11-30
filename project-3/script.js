@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-                apiKey: "AIzaSyCnVdtFwjRgOfEsD3XXk6eWYi_2Yehgs-I",
-                authDomain: "sashimi-firebase.firebaseapp.com",
-                databaseURL: "https://sashimi-firebase-default-rtdb.firebaseio.com",
-                projectId: "sashimi-firebase",
-                storageBucket: "sashimi-firebase.appspot.com",
-                messagingSenderId: "712599675492",
-                appId: "1:712599675492:web:7818d44b215b8ac2c63571",
-                measurementId: "G-REHYQ60EN3"
+  apiKey: "AIzaSyCnVdtFwjRgOfEsD3XXk6eWYi_2Yehgs-I",
+  authDomain: "sashimi-firebase.firebaseapp.com",
+  databaseURL: "https://sashimi-firebase-default-rtdb.firebaseio.com",
+  projectId: "sashimi-firebase",
+  storageBucket: "sashimi-firebase.appspot.com",
+  messagingSenderId: "712599675492",
+  appId: "1:712599675492:web:7818d44b215b8ac2c63571",
+  measurementId: "G-REHYQ60EN3"
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -54,10 +54,7 @@ function submitText() {
 
 function submitlock() {
   entry.remove();
-  share.value = "Thanks for telling me.";
+  share.value = "thanks :D";
   share.disabled = true;
   share.style.width = "70%";
 }
-
-
-s

@@ -651,8 +651,8 @@ input {
 }
 .dog {
    position: relative;
-    top: 450px;
-    left: 1300px;
+    top: 0px;
+    left: 0px;
     width: 200px;
     z-index: 0;
 }
