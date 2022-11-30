@@ -1,35 +1,33 @@
 <html lang="en">
- <center>
+<center>
+
     <head>
         <link rel="stylesheet" href="main.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
     <title>?</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase.js"></script>
+    <script src="script.js" defer></script>
 
-        <div>
-            <img class="dog" src="images/dog.gif" />
+              <div>
+        <img class="dog" src="images/dog.gif" />
+    </div>
+
+    <body class="six">
+        <div class="container">
+
+            <form id="text-input-form" onsubmit="return false">
+                <input type="text" id="text-input-entry" placeholder="favorite sushi?" />
+                <input type="submit" id="text-input-submit" onclick="submitlock()" value="share" />
+            </form>
+
+            <div id="chat-container"></div>
         </div>
-        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase.js"></script>
-        <script src="script.js" defer></script>
-
-        <body>
-            <div class="container">
-
-                <form id="text-input-form" onsubmit="return false">
-                    <input type="text" id="text-input-entry" placeholder="favorite sushi?" />
-                    <input type="submit" id="text-input-submit" onclick="submitlock()" value="share" />
-                </form>
-
-                <div id="chat-container"></div>
-            </div>
-            <br> <br> <br>
+        <br>
         <div class="back">
-                        <a href="home.html">back</a>
-                        </div>
-        </body>
+            <a href="home.html">back</a>
+        </div>
+    </body>
 </center>
 </html>

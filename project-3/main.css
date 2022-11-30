@@ -15,18 +15,6 @@ video {
 
 /*first page*/
 
-.blur {
-    cursor: pointer;
-    filter: blur(5px);
-    transition: 1s all;
-}
-
-.blur:hover {
-    cursor: url(images/chopstickcursor.png),
-        auto;
-    filter: blur(0);
-}
-
 .position {
     position: relative;
 }
@@ -245,7 +233,7 @@ body:-webkit-scrollbar {
 
 .japan {
     position: relative;
-    top: -120px;
+    top: -200px;
     left: -400px;
     width: 550px;
     z-index: 0;
@@ -253,15 +241,9 @@ body:-webkit-scrollbar {
 
 }
 
-.japan:hover {
-    transform: rotate(10deg);
-    transform: scale(2);
-
-}
-
 .sushiflag {
     position: relative;
-    top: 450px;
+    top: 405px;
     left: -170px;
     width: 300px;
     z-index: 0;
@@ -502,8 +484,8 @@ img:hover {
     left: 200px;
     width: 670px;
     z-index: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     -webkit-transition: all 1s ease;
 }
 
@@ -521,8 +503,8 @@ img:hover {
     left: 800px;
     width: 600px;
     z-index: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     -webkit-transition: all 1s ease;
 }
 
@@ -541,8 +523,8 @@ img:hover {
     left: 800px;
     width: 600px;
     z-index: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     -webkit-transition: all 1s ease;
 }
 
@@ -560,8 +542,8 @@ img:hover {
     left: 200px;
     width: 600px;
     z-index: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     -webkit-transition: all 1s ease;
 }
 
@@ -579,8 +561,8 @@ img:hover {
     left: 250px;
     width: 550px;
     z-index: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     -webkit-transition: all 1s ease;
 }
 
@@ -599,8 +581,8 @@ img:hover {
     left: 800px;
     width: 600px;
     z-index: 0;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(50%);
     -webkit-transition: all 1s ease;
 }
 
@@ -612,9 +594,14 @@ img:hover {
     filter: none;
 }
 /*sixth page*/
+
+body.six {
+ margin-top: 100px;
+}
 .container {
   margin: auto;
   text-align: center;
+    z-index:1;
 }
 
 input {
@@ -625,6 +612,7 @@ input {
   padding: 5px 100px 5px 100px;
   margin-bottom: 20px;
 }
+
 
 #chat-container{
   font-size: 30px;
@@ -647,12 +635,18 @@ input {
     color: #BC4631;
     font-size: 30px;
     font-family: font-family: 'Libre Baskerville', serif;
+}
+    .back:hover {
+    text-decoration: underline;
+    cursor: url(images/sushicursor.png),
+        auto;
 
 }
+    
 .dog {
    position: relative;
     top: 0px;
     left: 0px;
     width: 200px;
-    z-index: 0;
+    z-index: 1;
 }
