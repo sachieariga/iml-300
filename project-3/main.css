@@ -147,6 +147,7 @@ body:-webkit-scrollbar {
 }
 
 /*second page*/
+
 .history1 {
     position: relative;
     top: -60px;
@@ -162,9 +163,9 @@ body:-webkit-scrollbar {
 }
 
 .history2 {
-    position: absolute;
-    top: 600px;
-    left: 900px;
+    position: relative;
+    top: -450px;
+    left: 400px;
     width: 500px;
     z-index: 0;
     transition: .5s ease;
@@ -177,7 +178,7 @@ body:-webkit-scrollbar {
 
 .namanari {
     position: relative;
-    top: -600px;
+    top: -1000px;
     left: 400px;
     width: 800px;
     z-index: -1;
@@ -186,9 +187,9 @@ body:-webkit-scrollbar {
 }
 
 .history3 {
-    position: absolute;
-    top: 1150px;
-    left: 200px;
+    position: relative;
+    top: -1380px;
+    left: -350px;
     width: 500px;
     z-index: 0;
     transition: .5s ease;
@@ -200,9 +201,9 @@ body:-webkit-scrollbar {
 }
 
 .celebrate {
-    position: absolute;
-    top: 1100px;
-    left: 800px;
+    position: relative;
+    top: -1000px;
+    left: 360px;
     width: 420px;
     z-index: 0;
     transition: .5s ease;
@@ -210,9 +211,9 @@ body:-webkit-scrollbar {
 }
 
 .history4 {
-    position: absolute;
-    top: 1580px;
-    left: 850px;
+    position: relative;
+    top: -1200px;
+    left: 350px;
     width: 500px;
     z-index: 0;
     transition: .5s ease;
@@ -225,7 +226,7 @@ body:-webkit-scrollbar {
 
 .world {
     position: relative;
-    top: -600px;
+    top: -2000px;
     left: -300px;
     width: 500px;
     z-index: 0;
@@ -233,7 +234,7 @@ body:-webkit-scrollbar {
 
 .japan {
     position: relative;
-    top: -1100px;
+    top: -2500px;
     left: -450px;
     width: 550px;
     z-index: 0;
@@ -252,6 +253,7 @@ body:-webkit-scrollbar {
 }
 
 /*third page*/
+
 .ex {
     color: #BC4631;
     margin-bottom: 40px;
