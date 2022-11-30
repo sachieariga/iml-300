@@ -252,7 +252,13 @@ body:-webkit-scrollbar {
 }
 
 /*third page*/
+.ex {
+    color: #BC4631;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: font-family: 'Libre Baskerville', serif;
 
+}
 .tamago {
     position: relative;
     height: auto;
