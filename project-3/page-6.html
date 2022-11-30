@@ -21,21 +21,34 @@
         <div>
             <img class="preserving" src="images/preserving.gif" />
         </div>
+        <script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyCnVdtFwjRgOfEsD3XXk6eWYi_2Yehgs-I",
+    authDomain: "sashimi-firebase.firebaseapp.com",
+    databaseURL: "https://sashimi-firebase-default-rtdb.firebaseio.com",
+    projectId: "sashimi-firebase",
+    storageBucket: "sashimi-firebase.appspot.com",
+    messagingSenderId: "712599675492",
+    appId: "1:712599675492:web:7818d44b215b8ac2c63571",
+    measurementId: "G-REHYQ60EN3"
+  };
+firebase.initializeApp (firebaseConfig);
+            
+        </script>
+        <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase.js"></script>
+        <script src="script.js" defer></script>
 
+        <!-- This input form controls submission of text input -->
+        <div class="container">
 
-        <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
-       <script src= "script.js" defer></script>
+            <form id="text-input-form" onsubmit="return false">
+                <input type="text" id="text-input-entry" placeholder="favorite sashimi?" />
+                <input type="submit" id="text-input-submit" onclick="submitlock()" value="share" />
+            </form>
 
-            <!-- This input form controls submission of text input -->
-            <div class="container">
-
-                <form id="text-input-form" onsubmit="return false">
-                    <input type="text" id="text-input-entry" placeholder="favorite sashimi?" />
-                    <input type="submit" id="text-input-submit" onclick="submitlock()" value="Share" />
-                </form>
-                
-                <div id="chat-container"></div>
-            </div>
-        </body>
+            <div id="chat-container"></div>
+        </div>
+    </body>
 </center>
+
 </html>
