@@ -81,20 +81,20 @@ h1:hover {
 }
 
 p {
-position:fixed; 
+position:relative; 
 padding: 10px;
-    font-family: 'Libre Baskerville', serif;
-    text-align: left;
-    text-shadow: 2px 2px 10px #636260;
+font-family: 'Libre Baskerville', serif;
+text-align: left;
+text-shadow: 2px 2px 10px #636260;
 
 }
 
 .start {
-    position: fixed;
+    position: relative;
     top: 100%;
     left: 100%;
-    margin-left: -1500px;
-    margin-top: -515px;
+    margin-left: -3700px;
+    margin-top: -100px;
     width: 900px;
     height: 200px;
     font-size: 20px;
@@ -127,9 +127,9 @@ details > summary:-webkit-details-marker {
 
 .tokyola {
     position: relative;
-    top: px;
+    top: -100px;
     left: 400px;
-    width: 400px;
+    width: 500px;
     z-index: 0;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -611,8 +611,9 @@ img:hover {
     -webkit-filter: grayscale(0%);
     filter: none;
 }
+/*sixth page*/
 .container {
-  margin: 30px;
+  margin: auto;
   text-align: center;
 }
 
@@ -627,7 +628,6 @@ input {
 
 #chat-container{
   font-size: 30px;
-  
   margin:auto;
   width:70vw;
   display: grid;
@@ -636,10 +636,23 @@ input {
 
 .response{
   background-color: #BC4631;
-  color: white;
-  margin:0.2em;
-  padding: 1em;
-  border-radius: 15px;
+  color: #f3efdd;
+  margin:0.6em;
+  padding: 0.8em;
+  border-radius: 1px;
   box-shadow: 0 0 50px #fff;
   
+}
+.back {
+    color: #BC4631;
+    font-size: 30px;
+    font-family: font-family: 'Libre Baskerville', serif;
+
+}
+.dog {
+   position: relative;
+    top: 450px;
+    left: 1300px;
+    width: 200px;
+    z-index: 0;
 }
