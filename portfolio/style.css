@@ -6,38 +6,107 @@ video {
 body.start
 {background-image: url(bgs/firstbg.gif);
   background-size: cover;
+    margin-top: 250px;
 }
+
+body.readings {
+	background: linear-gradient(-45deg, #F4DDDB, #FDB2EC, #E5E5FA, #B8B9DC, #666699);
+	background-size: 4000%;
+	animation: gradient 40s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 h1 {
+    color: #666699;
+    font-size: 70px;
+    font-family: font-family: 'Libre Baskerville', serif;
+}
+
+footer {
+    color: #666699;
+    font-size: 15px;
+    font-family: font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    color: #666699;
+    font-size: 30px;
+    font-family: font-family: 'Libre Baskerville', serif;
+}
+h3 {
     color: white;
     font-size: 70px;
     font-family: font-family: 'Libre Baskerville', serif;
-
 }
+
 p {
-position:relative; 
+    position:relative; 
     color: white;
-font-family: 'Libre Baskerville', serif;
-text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
     text-align: center;
     font-size: 30px;
+    text-shadow: 2px 3px 5px black;
 
+}
+
+a {
+    color: white;
+        text-shadow: 2px 3px 5px #666699;
+    text-align: center;
+
+}
+
+p:hover {
+cursor: url(cursor/dog.png), auto;
+        text-decoration:underline;
+
+}
+
+.h2:hover {
+cursor: url(cursor/dog.png), auto;
+        text-decoration:underline;
+
+}
+
+.h3:hover {
+cursor: url(cursor/dog.png), auto;
+}
+
+.p:hover {
+cursor: url(cursor/dog.png);
 }
 
 body.one
-{background-image: url(bgs/secondbg.gif);
+{background-image: url(bgs/clouds.gif);
 background-size: cover;
 }
 
-body.readings
-{background-image: url(bgs/secondbg.gif);
-background-size: cover;
-}
 .description {
     color: white;
-font-family: 'Libre Baskerville', serif;
-text-align: left;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: 25px;
+
+}
+.description2 {
+color: #666699;
+font-family: 'Libre Baskerville', serif;
+text-align: center;
+font-size: 19px;
+
 
 }
 
